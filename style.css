@@ -10,7 +10,7 @@
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    
+
 }
 
 .Passible-data {
@@ -55,10 +55,12 @@ main {
     margin: 130px 0px;
     justify-content: center;
 }
-.my-faliures-data{
+
+.my-faliures-data {
     width: 31%;
     margin-top: 80px;
 }
+
 .my-faliures-tittle {
     font-weight: 700;
     font-size: 40px;
@@ -70,14 +72,17 @@ main {
     font-size: 16px;
     margin-bottom: 16px;
 }
-ol{
-    list-style:none;
-    
+
+ol {
+    list-style: none;
+
 }
-ol li{
+
+ol li {
     margin-bottom: 8px;
 }
-li i{
+
+li i {
     color: rgb(9, 213, 9);
     margin-right: 5px;
 }
@@ -87,20 +92,23 @@ li i{
 
 /* skill section start */
 
-.my-plan{
-text-align: center;
-margin-top: 130px;
+.my-plan {
+    text-align: center;
+    margin-top: 130px;
 }
-.skill-tittle{
+
+.skill-tittle {
     font-weight: 700;
     font-size: 30px;
     margin: 24px 0 0 16px;
 }
-.skill-p{
+
+.skill-p {
     font-weight: 500;
     font-size: 25px;
 }
-.skill{
+
+.skill {
     display: flex;
     justify-content: space-around;
 }
@@ -110,23 +118,25 @@ margin-top: 130px;
 /* skill section end */
 
 /* call section */
-.top{
+.top {
     background-image: url('./images/watch.png'),
-    linear-gradient(217deg, rgba(2, 2, 2, 0.5), rgba(250, 5, 5, 0.52) 70.71%);
+        linear-gradient(217deg, rgba(2, 2, 2, 0.5), rgba(250, 5, 5, 0.52) 70.71%);
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     border-radius: 5px;
     height: 300px;
-    width:1100px ;
+    width: 1100px;
     margin: auto;
 
 }
-.awlays{
+
+.awlays {
     padding: 60px;
     margin-top: 130px;
 
 }
-.awlays-tittle{
+
+.awlays-tittle {
     font-weight: 700;
     font-size: 40px;
     color: white;
@@ -134,12 +144,60 @@ margin-top: 130px;
     margin-bottom: 24px;
 }
 
-.call-btn{
-    padding: 20px 30px;
+.call-btn {
+    padding: 10px 20px;
     background-color: white;
-    color: black;
+    color: tomato;
     border: none;
     border-radius: 5px;
     font-weight: bold;
     font-size: larger;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    margin-top: 130px;
+}
+.footer-main{
+    display: flex;
+    padding: 130px 230px;
+    gap:350px;
+    justify-content: space-around;
+}
+
+.footer-tittle {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-img{
+    display: flex;
+    gap: 17px;
+}
+
+.two-tittle {
+    font-weight: 600;
+    font-size: 25px;
+    color:white;
+    margin-bottom: 31px;
+}
+input{
+    margin-bottom: 17px;
+    padding: 10px 0 10px 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
