@@ -154,6 +154,42 @@ li i {
     font-size: larger;
 }
 
+/* start about */
+.about-me {
+    margin: 100px;
+    background-color: #b5b4b427;
+    padding: 132px 150px;
+    text-align: center;
+}
+
+.about-tittle {
+    font-size: xx-large;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about-p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-detials-p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.about-detials-n {
+    font-weight: 500;
+    font-size: 15px;
+}
+.about-detials{
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+}
+
+/* start footer */
 footer {
     width: 100%;
     margin: auto;
