@@ -83,3 +83,27 @@ li i{
 
 
 /* main section end */
+
+/* skill section start */
+
+.my-plan{
+text-align: center;
+margin-top: 130px;
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 24px 0 0 16px;
+}
+.skill-p{
+    font-weight: 500;
+    font-size: 25px;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* skill section end */
